@@ -428,10 +428,10 @@ namespace Unity.XR.OpenXR.Features.PICOSupport
                     data.roleDatas[i].localPose.PosZ = -data.roleDatas[i].localPose.PosZ;
                     data.roleDatas[i].localPose.RotQz = -data.roleDatas[i].localPose.RotQz;
                     data.roleDatas[i].localPose.RotQw = -data.roleDatas[i].localPose.RotQw;
-                    data.roleDatas[i].velo[3] = -data.roleDatas[i].velo[3];
-                    data.roleDatas[i].acce[3] = -data.roleDatas[i].acce[3];
-                    data.roleDatas[i].wvelo[3] = -data.roleDatas[i].wvelo[3];
-                    data.roleDatas[i].wacce[3] = -data.roleDatas[i].wacce[3];
+                    data.roleDatas[i].velo[2] = -data.roleDatas[i].velo[2];
+                    data.roleDatas[i].acce[2] = -data.roleDatas[i].acce[2];
+                    data.roleDatas[i].wvelo[2] = -data.roleDatas[i].wvelo[2];
+                    data.roleDatas[i].wacce[2] = -data.roleDatas[i].wacce[2];
                 }
             }
             return val;
